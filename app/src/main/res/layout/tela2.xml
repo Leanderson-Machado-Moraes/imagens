@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/titulo2tela"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:text="Você está na 2º tela!"
+        android:textSize="30dp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        />
+
+    <Button
+        android:layout_below="@+id/titulo2tela"
+        android:id="@+id/btnTelaMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="100dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:text="Voltar para a tela principal" />
+</RelativeLayout>
